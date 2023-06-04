@@ -147,7 +147,7 @@ Example: `{"q1, "q2", "qf"}`
 📌 **First example:**
 
 ```python
-from pytomata.dfa import DFA
+from pytomatas.dfa import DFA
 
 # First example of DFA Automata instance:
 # Language of the Automata:
@@ -180,7 +180,7 @@ while True:
 **📌 Second example:**
 
 ```python
-from pytomata.dfa import DFA
+from pytomatas.dfa import DFA
 
 # Second example of DFA Automata instance:
 # Language of the Automata:

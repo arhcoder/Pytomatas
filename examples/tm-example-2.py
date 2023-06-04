@@ -1,4 +1,4 @@
-from pytomata.tm import TM
+from pytomatas.tm import TM
 
 # Second example of TM Automata instance:
 # Language of the Automata:

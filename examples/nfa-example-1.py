@@ -1,4 +1,4 @@
-from pytomata.nfa import NFA
+from pytomatas.nfa import NFA
 
 # Second example of NFA Automata instance:
 # Language of the Automata:

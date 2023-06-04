@@ -149,7 +149,7 @@ Example: `{"q1, "q2", "qf"}`
 📌 **First example:**
 
 ```python
-from pytomata.nfa import NFA
+from pytomatas.nfa import NFA
 
 # Second example of NFA Automata instance:
 # Language of the Automata:
@@ -182,7 +182,7 @@ while True:
 **📌 Second example:**
 
 ```python
-from pytomata.nfa import NFA
+from pytomatas.nfa import NFA
 
 # Second example of NFA Automata instance:
 # Language of the Automata:

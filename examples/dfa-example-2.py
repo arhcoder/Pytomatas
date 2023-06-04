@@ -1,4 +1,4 @@
-from pytomata.dfa import DFA
+from pytomatas.dfa import DFA
 
 # Second example of DFA Automata instance:
 # Language of the Automata:

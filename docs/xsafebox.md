@@ -1,10 +1,10 @@
 ## 🔐 Safebox Automata
 
-### Project implementation for Pytomata
+### Project implementation for Pytomatas
 
 <hr>
 
-This is a sample project that uses automata from the Pytomata library (this library), to do two things:
+This is a sample project that uses automata from the Pytomatas library (this library), to do two things:
 
 1. Using an **algorithm, it automatically creates an automaton (DFA)** using the features of this library. Based on creating a safebox password, **the algorithm designs the automaton that would simulate said safe,** and through the library it **implements it** autonomously **and simulates it.** The generated automata understands the letters ***"L"*** and ***"R"*** as language, which are used to represent the password, which must be included in the **string accepted by the automaton, to open the safe.** The algorithm recieves a safebox password (like "LLRRRRLLLLRRRR") and creates the automata for the language that includes the password as substring.
 
@@ -15,7 +15,7 @@ This is a sample project that uses automata from the Pytomata library (this libr
 #### 🎨 1. Automata Safebox Generator:
 
 ```python
-from pytomata.dfa import DFA
+from pytomatas.dfa import DFA
 # import os
 
 '''
@@ -258,7 +258,7 @@ if __name__ == "__main__":
 #### 🔍 2. Automata Safebox Password Validator:
 
 ```python
-from pytomata.pda import PDA
+from pytomatas.pda import PDA
 # import os
 
 def validatePassword(password: str):

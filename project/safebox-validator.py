@@ -1,4 +1,4 @@
-from pytomata.pda import PDA
+from pytomatas.pda import PDA
 # import os
 
 def validatePassword(password: str):

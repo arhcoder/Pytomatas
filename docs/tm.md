@@ -153,7 +153,7 @@ Example: `{"q1, "q2", "qf"}`
 📌 **First example:**
 
 ```python
-from pytomata.tm import TM
+from pytomatas.tm import TM
 
 # First example of TM Automata instance:
 # Language of the Automata:
@@ -220,7 +220,7 @@ while True:
 **📌 Second example:**
 
 ```python
-from pytomata.tm import TM
+from pytomatas.tm import TM
 
 # Second example of TM Automata instance:
 # Language of the Automata:
