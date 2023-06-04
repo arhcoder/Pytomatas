@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as readme:
 
 setup(
     name="Pytomatas",
-    version="1.1.0",
+    version="1.1.1",
     author="arhcoder",
     author_email="arhcoder@gmail.com",
     description="Simulates Automatons Acceptors DFA, NFA, PDA and Turing Machines",
