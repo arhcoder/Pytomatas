@@ -12,7 +12,7 @@ class DFA:
     Finals: list = []
 
     #/ Variables #
-    actual: str = ""
+    current: str = ""
     error: bool = False
 
 
@@ -44,8 +44,8 @@ class DFA:
             *transitionObject* looks like this:
             ("q0", "a", "q1");
             Where:
-                * "q0" is the actual state of the transition;
-                * "a" is the symbol that will read on the actual state;
+                * "q0" is the current state of the transition;
+                * "a" is the symbol that will read on the current state;
                 * "q1" is the next state after the symbol reading;
             Example of transitions set:
             { ("q0", "a", "q1"),  ("q0", "b", "q1"),  ("q1", "a", "q1")" };
@@ -66,7 +66,7 @@ class DFA:
         self.Transitions = list(transitions)
         self.Initial = initial
         self.Finals = list(finals)
-        self.actual = initial
+        self.current = initial
 
     #* Getter:
     def __getattribute__(self, __name: str):
@@ -96,7 +96,7 @@ class DFA:
         if not initial in self.States:
             self.States.append(initial)
         self.Initial = initial
-        self.actual = initial
+        self.current = initial
     
     #/ For Automata Final States:
     def addFinal(self, final: str):
@@ -124,30 +124,30 @@ class DFA:
 
     def transite(self, symbol: str, printStep: bool = False):
         '''
-            Recieves an actual reading symbol;
-            Based on the actual state and the transitions,
-            It changes the actual state to move;
+            Recieves an current reading symbol;
+            Based on the current state and the transitions,
+            It changes the current state to move;
         '''
 
         #/ The transition works like this:
-        #* If self.actual == [transition[0](actual state on the transition tuple)]
+        #* If self.current == [transition[0](current state on the transition tuple)]
         #* and symbol == [transition[1](letter on the transition tuple)], then:
-        #* self.actual = [transition[2](next state on the transition tuple)];
+        #* self.current = [transition[2](next state on the transition tuple)];
         validTransitions = []
         for transition in self.Transitions:
-            if self.actual == transition[0] and symbol == transition[1]:
+            if self.current == transition[0] and symbol == transition[1]:
                 validTransitions.append(transition)
         
         # If Automata has 0 or more than 1 transitions;
         if len(validTransitions) != 1:
-            print(f" * Transition δ(\"{self.actual}\", \"{symbol}\") is invalid!")
+            print(f" * Transition δ(\"{self.current}\", \"{symbol}\") is invalid!")
             self.error = True
             return
         # Else; it generates a transition:
         else:
             if printStep:
-                print(f" * \"{self.actual}\" reads \"{symbol}\" => \"{validTransitions[0][2]}\";")
-            self.actual = validTransitions[0][2]
+                print(f" * \"{self.current}\" reads \"{symbol}\" => \"{validTransitions[0][2]}\";")
+            self.current = validTransitions[0][2]
     
     def accepts(self, string: str, stepByStep: bool = False):
         '''
@@ -156,8 +156,8 @@ class DFA:
             Returns false if the string is not accepted;
         '''
 
-        # Initialize the actual state as the initial:
-        self.actual = self.Initial
+        # Initialize the current state as the initial:
+        self.current = self.Initial
         self.error = False
 
         # It shows the step by step path for the string:
@@ -176,7 +176,7 @@ class DFA:
         if self.error:
             return False
 
-        if self.actual in self.Finals:
+        if self.current in self.Finals:
             return True
         else:
             return False

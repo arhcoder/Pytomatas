@@ -52,7 +52,7 @@ class PDA:
                 It can be ""; for lambda/epsilon transitions;
                 * "Z" is the top symbol on the stack on these transition;
                 * "11Z" is the symbols it will push on the stack:
-                In these order, th "Z" will be stay at the bottom of th stack;
+                In these order, the "Z" will be stay at the bottom of th stack;
                 It takes symbol per symbol, in a whole-string;
                 * "q1" is the next state after the transition;
             Example of transitions set:

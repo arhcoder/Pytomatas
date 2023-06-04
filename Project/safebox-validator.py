@@ -1,5 +1,5 @@
-from Automata.pda import PDA
-import os
+from pytomata.pda import PDA
+# import os
 
 def validatePassword(password: str):
 
@@ -67,7 +67,7 @@ def validatePassword(password: str):
 if __name__ == "__main__":
 
     while True:
-        os.system("cls")
+        # os.system("cls")
         print()
         password = input("Password: ")
         if validatePassword(password):
@@ -77,4 +77,4 @@ if __name__ == "__main__":
         print()
         print("═"*40)
         print("\n")
-        os.system("pause")
+        # os.system("pause")

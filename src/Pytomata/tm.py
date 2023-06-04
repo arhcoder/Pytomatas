@@ -92,7 +92,7 @@ class TM:
         if not initial in self.States:
             self.States.append(initial)
         self.Initial = initial
-        self.actual = initial
+        self.current = initial
     
     #/ For Automata Final States:
     def addFinal(self, final: str):
@@ -129,21 +129,21 @@ class TM:
         # Check if the transition exists:
         validTransitions = []
         for transition in self.Transitions:
-            if self.actual == transition[0] and symbol == transition[1]:
+            if self.current == transition[0] and symbol == transition[1]:
                 validTransitions.append(transition)
         
         # If the Turing Machine has no valid transitions or more than one valid transition
         if len(validTransitions) != 1:
-            print(f" * Invalid transition in \"{self.actual}\" reading \"{symbol}\"!")
+            print(f" * Invalid transition in \"{self.current}\" reading \"{symbol}\"!")
             self.error = True
             return
         
         # Perform the transition:
         else:
             if printStep:
-                print(f" * \"{self.actual}\" reads \"{symbol}\", writes \"{validTransitions[0][2]}\", moves {str(validTransitions[0][3]).upper()}, goes to \"{validTransitions[0][4]}\";")
+                print(f" * \"{self.current}\" reads \"{symbol}\", writes \"{validTransitions[0][2]}\", moves {str(validTransitions[0][3]).upper()}, goes to \"{validTransitions[0][4]}\";")
             
-            self.actual = validTransitions[0][4]
+            self.current = validTransitions[0][4]
             self.tape[self.head] = validTransitions[0][2]
 
             # Move the head and extend the tape if necessary:
@@ -163,8 +163,8 @@ class TM:
             Returns False if the string is not accepted;
         '''
 
-        # Initialize the actual state as the initial state and the tape with the string:
-        self.actual = self.Initial
+        # Initialize the current state as the initial state and the tape with the string:
+        self.current = self.Initial
         self.error = False
         self.tape = list(string)
         self.head = 0
@@ -174,7 +174,7 @@ class TM:
             print(f"\nFor string \"{string}\":\n")
 
         # Process each symbol on the tape:
-        while self.actual not in self.Finals and not self.error:
+        while self.current not in self.Finals and not self.error:
             symbol = self.tape[self.head]
             self.transite(symbol, stepByStep)
         
@@ -184,7 +184,7 @@ class TM:
         if self.error:
             return False
 
-        if self.actual in self.Finals:
+        if self.current in self.Finals:
             return True
         else:
             return False
