@@ -28,7 +28,7 @@ What can do?
 	- **[DFA Class & Examples](http://github.com/arhcoder/Pytomatas/blob/master/docs/dfa.md "DFA Class & Examples")**;
 	- **[NFA Class & Examples](http://github.com/arhcoder/Pytomatas/blob/master/docs/nfa.md "NFA Class & Examples")**;
 	- **[PDA Class & Examples](http://github.com/arhcoder/Pytomatas/blob/master/docs/pda.md "PDA Class & Examples")**;
-	- **[TM Class & Examples](http://github.com/arhcoder/Pytomatas/blob/master/docs/pda.md "PDA Class & Examples")**;
+	- **[TM Class & Examples](http://github.com/arhcoder/Pytomatas/blob/master/docs/tm.md "TM Class & Examples")**;
 	- **[Safebox Example Project](http://github.com/arhcoder/Pytomatas/blob/master/docs/xsafebox.md "Safebox Example Project")**;
 
 <hr>
