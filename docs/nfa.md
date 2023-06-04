@@ -2,9 +2,9 @@
 
 ### Non-deterministic Finite Automaton
 
-#### [📑 ATTRIBUTES](#-attributes "ATTRIBUTES")
-#### [🎮 METHODS](#-methods "METHODS")
-#### [💻 EXAMPLES](#-examples "EXAMPLES")
+#### [📑 ATTRIBUTES](#-attributes-1 "ATTRIBUTES")
+#### [🎮 METHODS](#-methods-1 "METHODS")
+#### [💻 EXAMPLES](#-examples-1 "EXAMPLES")
 
 <hr>
 

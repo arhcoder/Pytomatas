@@ -1,14 +1,15 @@
 # 🤖 Pytomata
+
 **📓 Documentation**
 
 <hr>
 
 Pytomata allows to simulate Acceptor Automata in the console with Python, implementing its characteristics using different definitions (mathematics included), with the following types:
 
-* **[DFA](https://github.com/arhcoder/Pytomata/docs/dfa.md  "DFA") (Deterministic Finite Automaton)**;
-* **[NFA](https://github.com/arhcoder/Pytomata/docs/nfa.md "NFA") (Non-deterministic Finite Automaton)**;
-* **[PDA](https://github.com/arhcoder/Pytomata/docs/pda.md "PDA") (Push-Down Automaton)**;
-* **[TM](https://github.com/arhcoder/Pytomata/docs/tm.md "TM") (Turing Machine)**;
+* **[DFA](https://github.com/arhcoder/Pytomata/blob/master/docs/dfa.md  "DFA") (Deterministic Finite Automaton)**;
+* **[NFA](https://github.com/arhcoder/Pytomata/blob/master/docs/nfa.md "NFA") (Non-deterministic Finite Automaton)**;
+* **[PDA](https://github.com/arhcoder/Pytomata/blob/master/docs/pda.md "PDA") (Push-Down Automaton)**;
+* **[TM](https://github.com/arhcoder/Pytomata/blob/master/docs/tm.md "TM") (Turing Machine)**;
 
 What can do?
 
@@ -24,11 +25,12 @@ What can do?
 - **🛠 [README for USER](https://github.com/arhcoder/arhcoder#readme)**;
 
 - **📄 [DOCUMENTATION FOR DEV](#)**;
-	- **[DFA Class & Examples](http://github.com/arhcoder/Pytomata/docs/dfa.md "DFA Class & Examples")**;
-	- **[NFA Class & Examples](http://github.com/arhcoder/Pytomata/docs/nfa.md "NFA Class & Examples")**;
-	- **[PDA Class & Examples](http://github.com/arhcoder/Pytomata/docs/pda.md "PDA Class & Examples")**;
-	- **[TM Class & Examples](http://github.com/arhcoder/Pytomata/docs/pda.md "PDA Class & Examples")**;
-	- **[Safebox Example Project](http://github.com/arhcoder/Pytomata/docs/xsafebox.md "Safebox Example Project")**;
+	- **[DFA Class & Examples](http://github.com/arhcoder/Pytomata/blob/master/docs/dfa.md "DFA Class & Examples")**;
+	- **[NFA Class & Examples](http://github.com/arhcoder/Pytomata/blob/master/docs/nfa.md "NFA Class & Examples")**;
+	- **[PDA Class & Examples](http://github.com/arhcoder/Pytomata/blob/master/docs/pda.md "PDA Class & Examples")**;
+	- **[TM Class & Examples](http://github.com/arhcoder/Pytomata/blob/master/docs/pda.md "PDA Class & Examples")**;
+	- **[Safebox Example Project](http://github.com/arhcoder/Pytomata/blob/master/docs/xsafebox.md "Safebox Example Project")**;
 
 <hr>
+
 💜

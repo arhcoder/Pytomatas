@@ -6,10 +6,10 @@
 
 Pytomata allows to simulate Acceptor Automata in the console with Python, implementing its characteristics using different definitions (mathematics included), with the following types:
 
-* **[DFA](https://github.com/arhcoder/Pytomata/docs/dfa.md  "DFA") (Deterministic Finite Automaton)**;
-* **[NFA](https://github.com/arhcoder/Pytomata/docs/nfa.md "NFA") (Non-deterministic Finite Automaton)**;
-* **[PDA](https://github.com/arhcoder/Pytomata/docs/pda.md "PDA") (Push-Down Automaton)**;
-* **[TM](https://github.com/arhcoder/Pytomata/docs/tm.md "TM") (Turing Machine)**;
+* **[DFA](https://github.com/arhcoder/Pytomata/blob/master/docs/dfa.md  "DFA") (Deterministic Finite Automaton)**;
+* **[NFA](https://github.com/arhcoder/Pytomata/blob/master/docs/nfa.md "NFA") (Non-deterministic Finite Automaton)**;
+* **[PDA](https://github.com/arhcoder/Pytomata/blob/master/docs/pda.md "PDA") (Push-Down Automaton)**;
+* **[TM](https://github.com/arhcoder/Pytomata/blob/master/docs/tm.md "TM") (Turing Machine)**;
 
 What can do?
 
@@ -28,11 +28,11 @@ What can do?
   - **🧿 [Second implementation](#-second-implementation)**;
 - **📓 [Documentation](#-documentation)**;
 - **📚 [Examples](#-examples)**;
-  - **🤖 [DFA](https://github.com/arhcoder/Pytomata/docs/dfa.md  "DFA")**;
-  - **🤖 [NFA](https://github.com/arhcoder/Pytomata/docs/nfa.md "NFA")**;
-  - **🤖 [PDA](https://github.com/arhcoder/Pytomata/docs/pda.md "PDA")**;
-  - **🤖 [TM](https://github.com/arhcoder/Pytomata/docs/tm.md "TM")**;
-  - **🔐 [Safebox](https://github.com/arhcoder/Pytomata/docs/xsafebox.md)**;
+  - **🤖 [DFA](https://github.com/arhcoder/Pytomata/blob/master/docs/dfa.md  "DFA")**;
+  - **🤖 [NFA](https://github.com/arhcoder/Pytomata/blob/master/docs/nfa.md "NFA")**;
+  - **🤖 [PDA](https://github.com/arhcoder/Pytomata/blob/master/docs/pda.md "PDA")**;
+  - **🤖 [TM](https://github.com/arhcoder/Pytomata/blob/master/docs/tm.md "TM")**;
+  - **🔐 [Safebox](https://github.com/arhcoder/Pytomata/blob/master/docs/xsafebox.md)**;
 - **📁 [Repository](#-repository)**;
 - **✍ [Contributing](#-contributing)**;
 - **📜 [License](#-license)**;
@@ -163,21 +163,21 @@ my_dfa.accepts(word, stepByStep=True)
 
 ## 📓 Documentation
 
-Go to **[THIS LINK](http://github.com/arhcoder/Pytomata/docs/automatas.md "THIS LINK")** to see the documentation on all the features of the different types of automata, the functions they have, and examples of their implementation.
+Go to **[THIS LINK](http://github.com/arhcoder/Pytomata/blob/master/docs/automatas.md "THIS LINK")** to see the documentation on all the features of the different types of automata, the functions they have, and examples of their implementation.
 
 <br>
 
 ## 📚 Examples
 
-1. **[DFA (Deterministic Finite Automaton)](https://github.com/arhcoder/Pytomata/docs/dfa.md  "DFA").**
+1. **[DFA (Deterministic Finite Automaton)](https://github.com/arhcoder/Pytomata/blob/master/docs/dfa.md  "DFA").**
 
-2. **[NFA (Non-deterministic Finite Automaton)](https://github.com/arhcoder/Pytomata/docs/nfa.md "NFA").**
+2. **[NFA (Non-deterministic Finite Automaton)](https://github.com/arhcoder/Pytomata/blob/master/docs/nfa.md "NFA").**
 
-3. **[PDA (Push-Down Automaton)](https://github.com/arhcoder/Pytomata/docs/pda.md "PDA").**
+3. **[PDA (Push-Down Automaton)](https://github.com/arhcoder/Pytomata/blob/master/docs/pda.md "PDA").**
 
-4. **[TM (Turing Machine)](https://github.com/arhcoder/Pytomata/docs/tm.md "TM").**
+4. **[TM (Turing Machine)](https://github.com/arhcoder/Pytomata/blob/master/docs/tm.md "TM").**
 
-5. **[Safebox Automata Implementation Project](https://github.com/arhcoder/Pytomata/docs/xsafebox.md).**
+5. **[Safebox Automata Implementation Project](https://github.com/arhcoder/Pytomata/blob/master/docs/xsafebox.md).**
 
 <br>
 
@@ -197,7 +197,7 @@ Contributions are welcome! If you encounter any issues, have suggestions, or wou
 
 This project is licensed under the MIT License - see the **[LICENSE](https://github.com/arhcoder/Pytomata/blob/master/LICENSE)** file for details.
 
-<br>
+<hr>
 
 **Made with 💜 by @arhcoder**;
 
