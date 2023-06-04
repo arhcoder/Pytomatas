@@ -15,7 +15,7 @@ This is a sample project that uses automata from the Pytomatas library (this lib
 #### 🎨 1. Automata Safebox Generator:
 
 ```python
-from pytomatas.dfa import DFA
+from Pytomatas.dfa import DFA
 # import os
 
 '''
@@ -258,7 +258,7 @@ if __name__ == "__main__":
 #### 🔍 2. Automata Safebox Password Validator:
 
 ```python
-from pytomatas.pda import PDA
+from Pytomatas.pda import PDA
 # import os
 
 def validatePassword(password: str):

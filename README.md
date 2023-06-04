@@ -1,6 +1,6 @@
 # 🤖 Pytomatas
 
-**📌 Version 1.0.0**
+**📌 Version 1.1.0**
 
 <hr>
 
@@ -62,7 +62,7 @@ Example of a DFA implementation...
 **1. Creating empty automata and then give the data:**
 
 ```python
-from pytomatas import DFA
+from Pytomatas.dfa import DFA
 
 # Creates a DFA called "my_dfa":
 my_dfa = DFA()
@@ -111,7 +111,7 @@ my_dfa.accepts(word, stepByStep=True)
 **2. Creating the automata passing the data:**
 
 ```python
-from pytomatas import DFA
+from Pytomatas.dfa import DFA
 
 # Declare the States:
 Q = {"q0", "qa", "q1", "qb", "q2", "qf", "qx"}

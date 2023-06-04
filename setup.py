@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as readme:
 
 setup(
     name="Pytomatas",
-    version="1.0.0",
+    version="1.1.0",
     author="arhcoder",
     author_email="arhcoder@gmail.com",
     description="Simulates Automatons Acceptors DFA, NFA, PDA and Turing Machines",
@@ -20,7 +20,8 @@ setup(
     include_package_data=True,
     project_urls={
         "Bug Tracker": "https://github.com/arhcoder/Pytomatas/issues",
-        "Contribution": "https://github.com/arhcoder/Pytomatas/pulls"
+        "Contribution": "https://github.com/arhcoder/Pytomatas/pulls",
+        "Author": "https://github.com/arhcoder"
     },
     classifiers=[
         "Programming Language :: Python :: 3",

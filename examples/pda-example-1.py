@@ -1,4 +1,4 @@
-from pytomatas.pda import PDA
+from Pytomatas.pda import PDA
 
 # First example of PDA Automata instance:
 # Language of the Automata:

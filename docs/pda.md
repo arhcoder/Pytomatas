@@ -179,7 +179,7 @@ If you put: `["1", "2", "Z"]`: `"1"` is on the top, and `"Z"` in the bottom.
 📌 **First example:**
 
 ```python
-from pytomatas.pda import PDA
+from Pytomatas.pda import PDA
 
 # First example of PDA Automata instance:
 # Language of the Automata:
@@ -216,7 +216,7 @@ while True:
 **📌 Second example:**
 
 ```python
-from pytomatas.pda import PDA
+from Pytomatas.pda import PDA
 
 # Second example of PDA Automata instance:
 # Language of the Automata:

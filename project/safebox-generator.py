@@ -1,4 +1,4 @@
-from pytomatas.dfa import DFA
+from Pytomatas.dfa import DFA
 # import os
 
 '''
