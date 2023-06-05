@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as readme:
 
 setup(
     name="Pytomatas",
-    version="1.1.3",
+    version="1.1.4",
     packages=["Pytomatas"] or find_packages("src"),
     package_dir={"": "src"},
     author="arhcoder",
