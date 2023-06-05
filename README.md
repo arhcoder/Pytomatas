@@ -1,6 +1,6 @@
 # 🤖 Pytomatas
 
-**📌 Version 1.1.1**
+**📌 Version 1.1.2**
 
 <hr>
 
@@ -44,7 +44,7 @@ What can do?
 You can install Pytomatas using pip:
 
 ```bash
-pip install pytomatas
+pip install -i https://pypi.org/simple/ Pytomatas
 ```
 
 <br>
